@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Light Ark Technologies — Compound AI that remembers and stays in character</title>
-<meta name="description" content="Light Ark Technologies builds ArcOS, a model-agnostic compound-AI engine that gives AI a persistent persona and long-term memory, in production on self-operated NVIDIA H200 infrastructure.">
+<title>Light Ark Technologies — Models are public infrastructure. The harness is sovereignty.</title>
+<meta name="description" content="Light Ark Technologies builds ArcOS, a model-agnostic harness that gives an AI persistent persona, durable long-term memory and hard-coded rules — in production on self-operated NVIDIA H200 infrastructure.">
 
 
 <meta property="og:title" content="Light Ark Technologies">
-<meta property="og:description" content="ArcOS: model-agnostic compound AI with persistent persona and long-term memory. Made in California.">
+<meta property="og:description" content="Models are public infrastructure. The harness is sovereignty. ArcOS is the harness we build. Made in California.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://lightarktech.com">
 
@@ -60,16 +60,18 @@
     </div>
     <nav>
       <a href="#product">Product</a>
+      <a href="#open-source">Open source</a>
+      <a href="#research">Research</a>
       <a href="#company">Company</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <div class="hero">
-    <h1>Compound AI that remembers&nbsp;— and stays in character.</h1>
-    <p>Light Ark Technologies builds <strong>ArcOS</strong>, a model-agnostic engine that gives AI a
-       persistent persona and durable long-term memory&nbsp;&mdash; in production on infrastructure we
-       own and operate.</p>
+    <h1>Models are public infrastructure.<br>The harness is sovereignty.</h1>
+    <p>The model everyone can rent. The layer wrapped around it&nbsp;&mdash; memory, rules, tools, judgment
+       &mdash; is what makes an AI <em>yours</em>. Light Ark Technologies builds that layer, and hands it
+       over already built.</p>
 
     <div class="proof">
       <span>California C-Corp &middot; B20250271976</span>
@@ -79,21 +81,80 @@
     </div>
   </div>
 
+  <section id="mission">
+    <h2>The Ownership Gap</h2>
+    <div class="row">
+      <p>Owning your AI today means being able to build a harness around a model: memory that survives the
+         session, rules it cannot talk its way out of, tools it is allowed to touch, and a way to tell
+         whether it did the job. That is engineering work. Most people will never do it&nbsp;&mdash; not
+         because they lack ideas, but because they have no engineers.</p>
+    </div>
+    <div class="row">
+      <p>We call that distance the Ownership Gap. Our answer is not to teach everyone to build a harness.
+         It is to give them one that is already built&nbsp;&mdash; the software equivalent of handing
+         someone a finished house instead of a pallet of bricks.</p>
+    </div>
+  </section>
+
   <section id="product">
     <h2>ArcOS</h2>
     <div class="row">
-      <h3>A model-agnostic compound-AI engine</h3>
+      <h3>A model-agnostic harness</h3>
       <p>ArcOS is built on one principle: perception belongs to the language model, while control,
-         persona, and memory belong in hard-coded logic. A five-stage pipeline (perception &rarr;
-         strategy &rarr; assembly &rarr; generation &rarr; memory) keeps an AI consistently in character
-         and gives it durable long-term memory&nbsp;&mdash; on any backbone (Gemma, Llama, Qwen). Swapping
-         the model is a configuration change, not a rewrite.</p>
+         persona, memory and rules belong in hard-coded logic outside it. A five-stage pipeline
+         (perception &rarr; strategy &rarr; assembly &rarr; generation &rarr; memory) keeps an AI
+         consistently in character and gives it durable long-term memory&nbsp;&mdash; on any backbone
+         (Gemma, Llama, Qwen). Swapping the model is a configuration change, not a rewrite.</p>
+    </div>
+    <div class="row">
+      <h3>Rules that outlive the model</h3>
+      <p>Behaviour is governed by written, versioned rule documents that the pipeline enforces in code
+         rather than by asking the model nicely. When something goes wrong, the fix lands in the rules and
+         stays there&nbsp;&mdash; including after the underlying model is replaced.</p>
     </div>
     <div class="row">
       <h3>In production today</h3>
       <p>Our first product&nbsp;&mdash; a 24/7 AI companion for everyday support and reflection&nbsp;&mdash;
          runs on ArcOS and is live on the web and on desktop (macOS, Windows, Linux), with a native iOS
          app in development. It runs on a dedicated NVIDIA H200 we own and operate.</p>
+    </div>
+  </section>
+
+  <section id="open-source">
+    <h2>Open source</h2>
+    <div class="row">
+      <h3>founder-coding-skills</h3>
+      <p>The working methods we use to run an AI engineering team without engineers, packaged as Claude
+         Code skills and released under the MIT licence. Thirteen skills in two layers: how a
+         non-programmer founder runs the team, and how the AI disciplines its own engineering. Shipped
+         with the case studies behind them&nbsp;&mdash; including the postmortem of the week we burned our
+         entire quota in three days, published with the real numbers.</p>
+      <p style="margin-top:8px"><a href="https://github.com/lightarktech/founder-coding-skills">github.com/lightarktech/founder-coding-skills</a></p>
+    </div>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <div class="row">
+      <h3>The Institutional-Rule Prefrontal Layer</h3>
+      <p>Governing models from outside the weights: how an institution&rsquo;s rules, cases and corrections
+         can live in a durable layer above the model, so that experience accumulates across model
+         generations instead of being reset by them.</p>
+      <p class="links" style="margin-top:8px">
+        <a href="https://github.com/lightarktech/prefrontal-layer-paper">Paper (GitHub)</a>
+        <a href="https://haijunwen.substack.com/p/the-prefrontal-layer-for-ai-governing">Essay version</a>
+        <span style="color:var(--muted)">DOI: pending</span>
+      </p>
+    </div>
+    <div class="row">
+      <h3>The Ownership Gap</h3>
+      <p>How people who cannot build a harness can still own their AI&nbsp;&mdash; the case for shipping a
+         pre-built sovereign harness rather than more parts. Companion paper to the Prefrontal Layer.</p>
+      <p class="links" style="margin-top:8px">
+        <a href="https://github.com/lightarktech/ownership-gap-paper">Paper (GitHub)</a>
+        <a href="https://haijunwen.substack.com/p/the-ownership-gap-how-to-own-your">Essay version</a>
+        <span style="color:var(--muted)">DOI: pending</span>
+      </p>
     </div>
   </section>
 
@@ -105,6 +166,11 @@
          <a href="https://haijunwen.com">Haijun Wen</a>. Based in Chino Hills, in the Greater Los
          Angeles area.</p>
     </div>
+    <div class="row">
+      <p>We work on one question in three places: the engine for people who have no engineers, the
+         open-source pack for founders who never wrote code, and the published research for anyone who
+         has to govern an AI they did not build.</p>
+    </div>
   </section>
 
   <section id="contact">
@@ -112,7 +178,7 @@
     <div class="links">
       <a href="mailto:contact@lightarktech.com">contact@lightarktech.com</a>
       <a href="https://haijunwen.com">Founder</a>
-      <a href="https://github.com/wenhaijun91-cyber">GitHub</a>
+      <a href="https://github.com/lightarktech">GitHub</a>
       <a href="https://x.com/LightArkTech">X / Twitter</a>
     </div>
   </section>
